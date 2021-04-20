@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithMendhak</title>
+    <style>
+        /* CSS resat */
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+            background: #0E1317;
+        }
+
+        p {
+            font-size: 2.0rem;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #04080C;
+        }
+
+        .logo {
+            margin: 16px 30px;
+            cursor: pointer;
+        }
+
+        .logo img {
+            height: auto;
+            width: 154px;
+        }
+
+        .navigation .navbar {
+            display: flex;
+            margin: 0px 40px 0px 0px;
+        }
+
+        .navigation .navbar li {
+            list-style: none;
+        }
+
+        .navigation .navbar li a {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 10px 10px;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+
+        .navigation .navbar li a:hover {
+            color: #66FFE4;
+        }
+
+        /* Home */
+        .home {
+            height: 622px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid #04080C;
+        }
+
+        .home .welcome {
+            padding: 0px 206px;
+            color: #66FFE4;
+            font-size: 5.4rem;
+        }
+
+        .home div p {
+            padding: 0px 330px 0px 220px;
+            font-size: 2.6rem;
+            align-items: center;
+        }
+
+        /* About */
+        .about {
+            height: 622px;
+            border-bottom: 2px solid #04080C;
+        }
+
+        section .title {
+            position: relative;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 60px;
+            padding: 0px 206px 0px 206px;
+            font-size: 4.1rem;
+        }
+
+        .about .about-content {
+            display: flex;
+
+        }
+
+        .about .about-content .right {
+            margin: 0px 220px 0px 0px;
+        }
+
+        .about .about-content .right .text {
+            font-size: 2.6rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            margin: 0px 0px 0px 220px;
+        }
+
+        .about .about-content .right .text span {
+            color: #66FFE4;
+        }
+
+        .about .about-content .right p {
+            padding: 34px 0px 8px 220px;
+            text-align: justify;
+        }
+
+        footer {
+            background: #6F839F;
+        }
+
+        footer span {
+            padding: 20px 0px;
+            background: #6F839F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        footer a {
+            background: #6F839F;
+            color: #66FFE4;
+        }
+
+        /* Utility classes */
+        .btn {
+            margin: 4px;
+            padding: 8px;
+            font-weight: 600;
+            border-radius: 12px;
+            border: 1px solid #66FFE4;
+        }
+
+        .btn:hover {
+            color: black;
+            background: #66FFE4;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navigation">
+        <div class="logo">
+            <img src="https://test-upl.quarkly.io/5e60efa12db4d10024432a9f/images/quarkly-beta-logo-on-dark.svg?v=2020-10-30T09:51:10.304Z"
+                alt="logo">
+        </div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+    <section class="home" id="home">
+        <div><span class="welcome">Welcome</span><br>
+            <p> to my website Lorem ipsum dolor sit amet consectetur adipisicing elit. At, labore. Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div>
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text">I'm Prajwal Balghare <br> and I'm a <span>Passionate Coder !</span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
+                        autemexcepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus
+                        accusamus alias fuganihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus
+                        veritatis, placeat, ab molestiaevelit inventore exercitationem consequuntur blanditiis omnis
+                        beatae. Dolor iste excepturi ratione solutaquas culpa voluptatum repudiandae harum non.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Created By <a href="#"> CodeWithMendhak </a> | © 2020 All rights reserved.</span>
+    </footer>
+    <script>
+
+    </script>
+</body>
+
+</html>
